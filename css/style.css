@@ -20,9 +20,10 @@ body{
 	width: 20%;
 	height: 45%;
 	position: fixed;
-	background-color: green;
+// 	background-color: green;
 	margin-left: 5%;
 	margin-top: 2%;
+	background-color:rgba(255,255,255,0.5);
 }
 .container_title{
 	width: 35%;
@@ -37,4 +38,22 @@ body{
 	font-size: 365%;	
 	font-weight:bold;
 	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.container_logo{
+	width: 23%;
+	height: 21%;
+	background-color: red;
+	margin-left: 40%;		
+}
+.container_logo_uffs{
+	width: 10%;
+	height: 80%;
+	//background-color: red;
+	margin-left: 34%;		
+	position: fixed;
+	background-image:url('img/uffs_logo.PNG');
+	//background-attachment:fixed;
+	//background-position:center;
+	background-size:38% 14%;
+	background-repeat:no-repeat;
 }
